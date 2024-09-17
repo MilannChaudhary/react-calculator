@@ -73,3 +73,15 @@
 .btn-lightgrey {
   background-color: #d4d4d2;
 }
+
+.btn-yellow:active {
+  background-color: #ff5722;
+}
+
+.btn-darkgrey:active {
+  background-color: #999999;
+}
+
+.btn-lightgrey:active {
+  background-color: #ededed;
+}
