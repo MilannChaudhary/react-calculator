@@ -10,7 +10,7 @@ function App() {
   const [calculated, setCalculated] = useState("");
 
   const handleClick = (value) => {
-    const operators = ["+", "-", "*", "/"];
+    const operators = ["+", "-", "*", "/", "%"];
     const lastChar = input[input.length - 1];
 
     // Find the last operator
@@ -18,7 +18,8 @@ function App() {
       input.lastIndexOf("+"),
       input.lastIndexOf("-"),
       input.lastIndexOf("*"),
-      input.lastIndexOf("/")
+      input.lastIndexOf("/"),
+      input.lastIndexOf("%")
     );
 
     // Get the part of the input after the last operator (the current number)
